@@ -9,7 +9,9 @@ Avec la mondialisation et la concurrence croissante, une refonte de ses méthode
 
 ###Reccueil des besoins:
 ###Organisation:  
-**Repartition des tâches:**  
+**Repartition des tâches:** 
+![Users](C:\Users\Clow\Desktop\utilisateur.png)
+Ce projet d'études a été réalisé par un groupe de 4 élèves de l'EXIA CESI TOULOUSE.  
 **Matrice RACI:**  
 **Gantt:**  
 ###Conception:
@@ -17,6 +19,6 @@ Avec la mondialisation et la concurrence croissante, une refonte de ses méthode
 **Merise:**  
 **UML:**  
 **Moke-Up de l'application:**  
-###Choix des Outils:  
+###Choix des Outils:
 ###Code:  
 
