@@ -50,22 +50,47 @@ Dans une base de données CouchDB le format sera le Document en JSON afin de gar
 
 5 tableaux de bords donneront une vision de l’activité de l’entreprise. Qualité contiendra des indicateurs sur la satisfaction des clients en fonction par exemple de délai, de la qualité des produits, de leurs pays etc. … Production sera centré sur les matériaux, les conditionnements les produits et les pièces. Echéance sur les dates d’expédition, de commandes les temps de production. Vente sur les volumes de ventes au cours du temps, la rentabilité des produits. Maintenance sur les anomalies, temps de maintenant en fonction des produits ou du temps.  
 
-1. Qualité (satisfaction/clients)  
-⋅⋅* Évolution de la satisfaction  
-*Satisfaction moyenne  
-*Taux d’annulation  
-*Rapport satisfaction / produit  
-*Rapport satisfaction / pays  
-*Rapport satisfaction / pièces  
-*Rapport satisfaction / Ligne d’assemblage  
-*Rapport satisfaction / taux de pannes  
-*Rapport satisfaction / Date  
-*Rapport prix / satisfaction  
-
-2. Production
-3. Echéance
-4. Vente
-5. Maintenance
+* Qualité (satisfaction / client)
+ * Évolution de la satisfaction
+ * Satisfaction moyenne
+ * Taux d’annulation
+ * Rapport satisfaction / produit
+ * Rapport satisfaction / pays
+ * Rapport satisfaction / pièces
+ * Rapport satisfaction / Ligne d’assemblage
+ * Rapport satisfaction / taux de pannes
+ * Rapport satisfaction / Date
+ * Rapport prix / satisfaction
+* Production
+ * Évolutions des stocks
+ * Stocks moyens produits
+ * Répartition stock / produit
+ * Répartition stock / pays
+ * Répartition stock / pièces
+ * Répartition stock / Commande
+ * Nombre de produit fabriqué
+ * Durée moyenne de production
+* Échéance
+ * Différence date commande date livraison 
+ * Temps de production moyen
+ * Temps de livraison moyen
+ * Rapport satisfaction temps de livraison
+ * Taux de rupture de prod
+* Vente
+ * Évolutions des ventes 
+ * Répartition produits / CA
+ * Répartition produits / clients
+ * Répartition pays / CA
+ * Répartition produits / Pays
+ * Répartition pièce / CA
+ * Répartition MP / CA
+ * Répartition des produits vendus / jour
+ * Répartition des pièces vendus / jour
+ * Correspondance des produits
+* Maintenance
+ * Taux de panne
+ * Créneau des pannes
+ * Rapport satisfaction / pannes
 
 
 **Choix des outils:**  
