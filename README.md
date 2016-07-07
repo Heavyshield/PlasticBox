@@ -91,6 +91,16 @@ Administration | BDD_Administration_1 | 192.168.10.5
 Administration | DHCP/DNS_Administration_1 | 12.168.10.10
 Conditionnement | BDD_Conditionnement_1 | 192.168.10.5
 Exportation | BDD_Exportation_1 | 192.168.10.5  
+
+_Routage Inter-Vlan_  
+Ne disposant que d’un service DHCP à l’intérieur de l’entreprise, il a fallu crée un routage inter-vlan.Nous sommes partis sur des routeurs disposant au minimum de 4 ports (10 dans notre POC joint).Cette ensemble de routeur a permis de mettre en place un routeur logique grâce à la technologie de VRRP  
+
+_le routeur Virtuel_  
+Plusieurs technologies permettent de créer un routeur virtuel malheureusement aucune n’est disponible sur cette version de packet tracer (la version 6 ayant un bug sur le sujet).  
+Dans l’onglet bleu du schéma réseaux, on remarque deux routeurs physiques.
+La technologie  HSRP/VRRP/ permet d’avoir de la redondance de routeur et de pouvoir répondre à cette constante
+
+que chaque gateway possède.
 **Merise:**  
 Nous avons réalisés les 4 bases de données suivantes:  
 
