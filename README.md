@@ -93,7 +93,8 @@ Conditionnement | BDD_Conditionnement_1 | 192.168.10.5
 Exportation | BDD_Exportation_1 | 192.168.10.5  
 
 _Routage Inter-Vlan_  
-Ne disposant que d’un service DHCP à l’intérieur de l’entreprise, il a fallu crée un routage inter-vlan.Nous sommes partis sur des routeurs disposant au minimum de 4 ports (10 dans notre POC joint).Cette ensemble de routeur a permis de mettre en place un routeur logique grâce à la technologie de VRRP  
+Ne disposant que d’un service DHCP à l’intérieur de l’entreprise, il a fallu crée un routage inter-vlan.Nous sommes partis sur des routeurs disposant au minimum de 4 ports (10 dans notre POC ci dessous).Cette ensemble de routeur a permis de mettre en place un routeur logique grâce à la technologie de VRRP  
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/PT.png)    
 
 _le routeur Virtuel_  
 Plusieurs technologies permettent de créer un routeur virtuel malheureusement aucune n’est disponible sur cette version de packet tracer (la version 6 ayant un bug sur le sujet).  
