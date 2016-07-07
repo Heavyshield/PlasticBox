@@ -101,9 +101,18 @@ _le routeur Virtuel_
 Plusieurs technologies permettent de créer un routeur virtuel malheureusement aucune n’est disponible sur cette version de packet tracer (la version 6 ayant un bug sur le sujet).  
 Dans l’onglet bleu du schéma réseaux, on remarque deux routeurs physiques.
 La technologie  HSRP/VRRP/ permet d’avoir de la redondance de routeur et de pouvoir répondre à cette constante que chaque gateway possède.  
-_Nota :
-* HSRP est la Hot Standby Router Protocol, elle est la technologie propre à CISCO
-* VRRP est la technologie HSRP normalisé, elle se traduit par  Virtual Router Redundancy Protocol_  
+_Nota :_
+* _HSRP est la Hot Standby Router Protocol, elle est la technologie propre à CISCO_
+* _VRRP est la technologie HSRP normalisé, elle se traduit par  Virtual Router Redundancy Protocol_  
+
+Si on utilise le VRRP :  
+* une ip virtuelle (celle du gateway) est créée. Les routeurs physiques disposent de leurs propres IP.
+* On donne une priorité aux routeurs ainsi que divers paramètres (cas ou un port tombe).
+* Le routeur possédant la plus haute priorité est élu "Maitre"
+* L’autre est en statut « standby »
+* Le protocole fait le lien entre l’IP du routeur virtuelle et celui Maitre.
+* Si les priorités changent (par exemple, lorsqu’un lien tombe, un service réduit la priorité du routeur), une élection a lieu à nouveau afin de désigner le routeur Maitre.  
+Ainsi quand on ping une adresse derrière le routeur virtuelle, on ne sait pas quel routeur physique a répondu.  
 
 **Merise:**  
 Nous avons réalisés les 4 bases de données suivantes:  
