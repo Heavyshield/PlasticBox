@@ -43,7 +43,12 @@ Nous avons réalisés les 4 bases de données suivantes:
 **_Fabrication:_**       
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD_Fabrication.JPG)
 
-**UML:**  
+**UML:**   
+
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Component_v1.0%20(2).PNG)
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/UseCase_v1.1.PNG)
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Class_v1.0.PNG)
+
 **Moke-Up de l'application:**      
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Mokeup.PNG)  
 Pour faire varier les données simulées par le générateur, nous allons modifier:
