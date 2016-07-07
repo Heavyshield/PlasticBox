@@ -38,9 +38,10 @@ Pour faire varier les données simulées par le générateur, nous allons modifi
 * La quantité initiale de commandes (entrée par l'utilisateur)
 * La taille des lots commandés (choix entre 10, 15 et 20 dans une liste déroulante)
 * La date de début de la simulation (choix avec le calendrier. La simulation commande 1 mois avant la date choisi et se fini 2 mois plus tard).  
->image outil  
-###Choix des Outils:
+
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/tool.png)**Choix des outils:**  
+
 Ce projet a été réalisé à l'aide de plusieurs VM 
->image console  
-###![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/terminal.jpg)Code:  
+
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/terminal.jpg)**Code:**  
 
