@@ -42,5 +42,5 @@ Pour faire varier les données simulées par le générateur, nous allons modifi
 ###Choix des Outils:
 Ce projet a été réalisé à l'aide de plusieurs VM 
 >image console  
-###Code:  
+###![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/terminal.jpg)Code:  
 
