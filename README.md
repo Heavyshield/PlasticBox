@@ -31,9 +31,18 @@ Pour déterminer l'ordre de priorité des tâches ainsi qu'avoir un planning et 
 **Architecture Réseau:**  
 L'entreprise avait déja mis en place un système de base de données et de réseaux:  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/archi.PNG)
-**Merise:** 
+**Merise:**  
 Nous avons réalisés les 4 bases de données suivantes:  
->images des 4 base + commentaires
+
+####Administration:  
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD%20Administration.PNG)  
+####Conditionnement:  
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD%20Conditionnement.PNG)  
+####Expedition:  
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD%20Expedition.PNG)  
+####Fabrication:   
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD%20Fabrication.PNG)
+
 **UML:**  
 **Moke-Up de l'application:**      
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Mokeup.PNG)  
