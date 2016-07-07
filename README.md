@@ -139,6 +139,11 @@ La base de données "Fabrication" regroupe l'ensemble des tables de fabrication,
 
 
 **UML:**    
+Notre sujet de stage stipulait la création d'un générateur de données. Ce générateur, devait se connecter à la base de donnée pour récupérer des informations, mais aussi et surtout, stocker de nouvelles données dedans.  
+C'est ainsi que nous avons séparé l'architecture de notre application en plusieurs parties:  
+* Un connector:  
+* Un Generator:  
+* Une application graphique:  
 
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Component_v1.0%20(2).PNG)
 
