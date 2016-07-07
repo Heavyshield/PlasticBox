@@ -77,7 +77,7 @@ Service|Nom VLAN  | Numéro VLAN  | Plage IP | Masque
 Production | vlan_production | 10 | 192.168.10.0 | 255.255.255.0
 Administration | vlan_administration | 20 | 192.168.20.0 | 255.255.255.0
 Conditionnement | vlan_conditionnement | 30 | 192.168.30.0 | 255.255.255.0
-Exportation | vlan_exportation | 40 | 192.168.L40.0 | 255.255.255.0  
+Exportation | vlan_exportation | 40 | 192.168.40.0 | 255.255.255.0  
 
 les 11 premières adresses de chaque plage réseau étant réservées par le service informatique, nous obtenons 244 adresses libres par VLAN.  
 
