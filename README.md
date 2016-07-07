@@ -69,14 +69,28 @@ Nous avons donc dû reprendre cette architecture réseaux, et donc calculé les 
 Tous les appareils sur le réseau hormis les postes clients répondent à la norme suivante:  
 <Type_Equipement>_<Service>_<Numéro_appareil>  
   
-_les VLAN(s)_  
+_les VLAN(s):_  
 
 Service|Nom VLAN  | Numéro VLAN  | Plage IP | Masque
 --- | --- | --- | --- | ---
 Production | vlan_production | 10 | 192.168.10.0 | 255.255.255.0
 Administration | vlan_administration | 20 | 192.168.20.0 | 255.255.255.0
 Conditionnement | vlan_conditionnement | 30 | 192.168.30.0 | 255.255.255.0
-Exportation | vlan_exportation | 40 | 192.168.40.0 | 255.255.255.0  
+Exportation | vlan_exportation | 40 | 192.168.L40.0 | 255.255.255.0  
+
+les 11 premières adresses de chaque plage réseau étant réservés par le service informatique, nous obtenons 244 adresses libres par VLAN.  
+
+_Les Serveurs:_  
+Chaque service disposant d'un serveur de données, nous avons respecté notre convention de nommage mais aussi la règle suivante: tout serveur stockant de la donnée propre aux activités de l'entreprise doit être compris entre une adresse IP "192.168.XX.5" et "192.168.XX.9".  
+Dans le but d'éviter une redondance inutile, nous ne disposons que d'un serveur DNS et DHCP.  
+
+Service | Nom du Serveur  | IP
+--- | --- | ---
+Production | BDD_Production_1 | 192.168.10.5
+Administration | BDD_Administration_1 | 192.168.10.5
+Administration | DHCP/DNS_Administration_1 | 12.168.10.10
+Conditionnement | BDD_Conditionnement_1 | 192.168.10.5
+Exportation | BDD_Exportation_1 | 192.168.10.5  
 **Merise:**  
 Nous avons réalisés les 4 bases de données suivantes:  
 
