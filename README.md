@@ -230,10 +230,11 @@ Le code de notre application est récupérable [Ici](https://github.com/Heavyshi
 
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/EA2.png)  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/CF2.png)  
-Ce projet était très interessant: il touchait à plusieurs domaines de l'informatique, nous permettait d'appliquer des mathématique et de nous plonger dans les "Big Data". Cepandant, le scope du projet s'est affiné en cours de projet, donnant une charge de travail supplémentaire et obligeant notre équipe à être très flexible. Ce projet m'a semblé de ce fait beaucoup trop chaotique par rapport au temps que nous avions.   
+Ce projet était très interessant: il touchait à plusieurs domaines de l'informatique, nous permettait d'appliquer des mathématiques et de nous plonger dans les "Big Data". Cepandant, le scope du projet s'est affiné en cours de projet, donnant une charge de travail supplémentaire et obligeant notre équipe à être très flexible. Ce projet m'a semblé de ce fait beaucoup trop chaotique par rapport au temps que nous avions.   
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/TL2.png)  
 Concernant ce projet BI mon ressenti est mitigé: d’un côté le sujet est intéressant de l’autre , il manque cruellement de cadre etles redéfinitions successives du merise ont considérablement ralentis la réalisation des autres tâches du projet. En effet nous disposons d’une liberté importante dans la réalisation de ce projet mais la réalisation d’un ETL était une première. Or sur un projet d’une semaine, il est difficile de bien choisir une technologie et de s’y former. Le problème qui en découle et une perte de temps sur l’utilisation de Talend et donc la génération du Datawarehouse.
 Pour résumer: un bon sujet mais mal cadré et sur une durée de 1 semaine il est difficile de rattraper des erreurs de techniques.  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/DVA2.png)  
+Projet intéressant d'un point de vue technique. Malheureusement au vu du temps imparti celui-ci  aurait pu être decoupé en 2 parties. En effet, la partie générateur a mobilisé des ressources et entrainé des changements sur notre deuxieme partie que j'appellerai plus "BI". La liberté du choix des outils et des technologies a été cependant appréciée.  
 
 
