@@ -89,7 +89,7 @@ Service | Nom du Serveur  | IP
 --- | --- | ---
 Production | BDD_Production_1 | 192.168.10.5
 Administration | BDD_Administration_1 | 192.168.10.5
-Administration | DHCP/DNS_Administration_1 | 12.168.10.10
+Administration | DHCP/DNS_Administration_1 | 192.168.10.10
 Conditionnement | BDD_Conditionnement_1 | 192.168.10.5
 Exportation | BDD_Exportation_1 | 192.168.10.5  
 
