@@ -34,13 +34,13 @@ L'entreprise avait déja mis en place un système de base de données et de rés
 **Merise:**  
 Nous avons réalisés les 4 bases de données suivantes:  
 
-####Administration:  
+**_Administration:_**    
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD%20Administration.PNG)  
-####Conditionnement:  
+**_Conditionnement:_**      
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD%20Conditionnement.PNG)  
-####Expedition:  
+**_Expedition:_**      
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD%20Expedition.PNG)  
-####Fabrication:   
+**_Fabrication:_**       
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD%20Fabrication.PNG)
 
 **UML:**  
