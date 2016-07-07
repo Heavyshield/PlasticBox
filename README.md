@@ -7,11 +7,15 @@
 La société PlasticBox™ aussi appelée PBX, créée des boites en plastiques depuis des décennies.
 Avec la mondialisation et la concurrence croissante, une refonte de ses méthodes de travail est nécessaire aujourd’hui : il faut améliorer son système de production, de conditionnement et d’expédition. Avant de faire cela de façon effective, elle voudrait essayer et tester une nouvelle architecture pour son volume de données très important .
 
+Ce sujet fait clairemennt appel à la recherche opérationnelle, dont l'analyse peut être représentée par la mind map suivante:  
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/mind%20map.png)  
+
 ####Reccueil des besoins:  
 * Création d'un générateur de données
 * Réalisation d'un analyseur de données métier
 * Elaboration d'un Tableau de bord (Dashboard) avec plusieurs indicateurs (modification d'architecture)
 * Reprendre les 4 serveurs avec leurs 4 bases de données
+* Création d'un entrepot de données et d'un ETL liant dashboard et la couchDB
 
 ##Organisation:   
 
@@ -27,7 +31,9 @@ Pour déterminer l'ordre de priorité des tâches ainsi qu'avoir un planning et 
 **Architecture Réseau:**  
 L'entreprise avait déja mis en place un système de base de données et de réseaux:  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/archi.PNG)
-**Merise:**  
+**Merise:** 
+Nous avons réalisés les 4 bases de données suivantes:  
+>images des 4 base + commentaires
 **UML:**  
 **Moke-Up de l'application:**      
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Mokeup.PNG)  
