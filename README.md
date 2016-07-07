@@ -151,7 +151,7 @@ Nous avons alors réalisé notre _Diagramme de Composants_ qui montre la connect
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/UseCase_v1.1.PNG) 
 
 Ainsi que notre _Diagramme de classe_ prévu:  
-[](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Class_v1.0.PNG)  
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Class_v1.0.PNG)  
 
 
 
