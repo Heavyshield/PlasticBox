@@ -37,21 +37,28 @@ Nous avons réalisés les 4 bases de données suivantes:
 **_Administration:_**    
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD_Administration.JPG)  
 La base de données "Administration" regroupe l'ensemble des tables de commandes et de catalogue  
+
 **_Conditionnement:_**      
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD_Conditionnement.JPG) 
 La base de données "Conditionnement" regroupe l'ensemble des tables qui concernent le conditionnement et les commandes
+
 **_Expedition:_**      
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD_Expedition.JPG)  
 La basee de données "Expedition" regroupe l'ensemble des tables de commandes et des clients
+
 **_Fabrication:_**       
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD_Fabrication.JPG)  
 La base de données "Fabrication" regroupe l'ensemble des tables de fabrication, des pieces et de maintenance
 
+
 **UML:**    
 
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Component_v1.0%20(2).PNG)
+
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/UseCase_v1.1.PNG)
+
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Class_v1.0.PNG)
+
 
 **Moke-Up de l'application:**      
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Mokeup.PNG)  
