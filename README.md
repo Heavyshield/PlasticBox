@@ -203,9 +203,12 @@ Pour générer une partie de table de jeu de données nous avons utilisé [Gener
 ###Code:      
 Le code de notre application est récupérable [Ici](https://github.com/Heavyshield/PlasticBox)
 
-###Bilan de Personnel:  
+###Bilan Personnel:  
+
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/EA.png)  
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/CF.png)  
+Ce projet était très interessant: il touchait à plusieurs domaines de l'informatique, nous permettait d'appliquer des mathématique et de nous plonger dans les "Big Data". Cepandant, le scope du projet s'est affiné en cours de projet, donnant une charge de travail supplémentaire et obligeant notre équipe à être très flexible. C'était parfois très frustrant. Le choix des technologies et outils utilisé étant cependant un vrai plus.
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/TL.png)  
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/DVA.png)  
 
 
-
-Ce projet en fin de 3e année à l'EXIA CESI de Toulouse a été court par rapport aux attentes du sujet.
-Le scope de ce projet a été affiné en cours de projet, donnant une charge de travail supplémentaire et obligeant notre équipe a être des plus flexibles. Le choix des technologies et outils était cependant un vrai plus pour s'adapter au mieux au sujet, intéressant car il touche plein de dommaines.
