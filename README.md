@@ -207,7 +207,7 @@ Le code de notre application est récupérable [Ici](https://github.com/Heavyshi
 
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/EA2.png)  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/CF2.png)  
-Ce projet était très interessant: il touchait à plusieurs domaines de l'informatique, nous permettait d'appliquer des mathématique et de nous plonger dans les "Big Data". Cepandant, le scope du projet s'est affiné en cours de projet, donnant une charge de travail supplémentaire et obligeant notre équipe à être très flexible. C'était parfois très frustrant. Le choix des technologies et outils utilisé étant cependant un vrai plus.
+Ce projet était très interessant: il touchait à plusieurs domaines de l'informatique, nous permettait d'appliquer des mathématique et de nous plonger dans les "Big Data". Cepandant, le scope du projet s'est affiné en cours de projet, donnant une charge de travail supplémentaire et obligeant notre équipe à être très flexible. C'était parfois très frustrant. Le choix des technologies et outils utilisé étant cependant un vrai plus.  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/TL2.png)  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/DVA2.png)  
 
