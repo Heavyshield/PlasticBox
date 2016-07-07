@@ -15,6 +15,7 @@ Avec la mondialisation et la concurrence croissante, une refonte de ses méthode
 * Elaboration d'un Tableau de bord (Dashboard) avec plusieurs indicateurs (modification d'architecture)
 * Reprendre les 4 serveurs avec leurs 4 bases de données
 >image calendrier ?  
+
 ###Organisation:  
 **Repartition des tâches:** 
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/utilisateur.png)
@@ -23,6 +24,7 @@ Ce projet d'études a été réalisé par un groupe de 4 élèves de l'EXIA CESI
 Pour déterminer l'ordre de priorité des tâches ainsi qu'avoir un planning et un suivi constant, nous avons mis en place un Trello (liste des tâches en ligne et suivi) mis régulièrement à jour, ainsi que le Gantt suivant:
 **Gantt:**  
 >image reflexion  
+
 ###Conception:
 **Architecture Réseau:**  
 L'entreprise avait déja mis en place un système de base de données et de réseaux:  
@@ -38,6 +40,7 @@ Pour faire varier les données simulées par le générateur, nous allons modifi
 * La date de début de la simulation (choix avec le calendrier. La simulation commande 1 mois avant la date choisi et se fini 2 mois plus tard).  
 >image outil  
 ###Choix des Outils:
+Ce projet a été réalisé à l'aide de plusieurs VM 
 >image console  
 ###Code:  
 
