@@ -14,8 +14,8 @@ Avec la mondialisation et la concurrence croissante, une refonte de ses méthode
 * Reprendre les 4 serveurs avec leurs 4 bases de données
 
 
-###Organisation:  
-**Repartition des tâches:** 
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/CALENDAR2.png)**Organisation:**    
+_Repartition des tâches:_  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/utilisateur.png)
 Ce projet d'études a été réalisé par un groupe de 4 élèves de l'EXIA CESI TOULOUSE. Les compétences et les envies de chacun ont permis la répartition des tâches et des responsabilités suivantes:  
 **Matrice RACI:**  
@@ -30,7 +30,7 @@ L'entreprise avait déja mis en place un système de base de données et de rés
 **Merise:**  
 **UML:**  
 **Moke-Up de l'application:**      
-![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Mokeup.PNG)
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Mokeup.PNG)  
 Pour faire varier les données simulées par le générateur, nous allons modifier:
 * La variance d'un mois à l'autre entre - 15 et 15 % (choisi grâce au slider)
 * La quantité initiale de commandes (entrée par l'utilisateur)
