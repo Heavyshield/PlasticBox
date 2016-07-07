@@ -55,11 +55,12 @@ Rapport	 | C | 	RA | 	C	 | C
 Power Point | 	C | 	RA | 	C | 	C
 Liens ODBC | 	RA | 	R	 | R	 | C
 MySql -> CouchDB | 	C	 | C | 	RA | 	C
-CouchDB -> QlickView | 	C	 | C | 	R	 | RA
+CouchDB -> QlickView | 	C	 | C | 	R	 | RA  
 
-Pour déterminer l'ordre de priorité des tâches ainsi qu'avoir un planning et un suivi constant, nous avons mis en place un Trello (liste des tâches en ligne et suivi) mis régulièrement à jour, ainsi que le Gantt suivant:  
 **Gantt:**  
-
+Pour déterminer l'ordre de priorité des tâches ainsi qu'avoir un planning et un suivi constant, nous avons mis en place un Trello (liste des tâches en ligne et suivi) mis régulièrement à jour.  
+Nous avions prévu le Gantt suivant: [télécharger le Gantt prévisionel](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Projet%20PlastiBox%20pr%C3%A9visionnel.mpp)  
+Cependant, notre projet s'est déroulé de la manière suivante: [télécharger le Gantt réél](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Projet%20PlastiBox.mpp)  
 
 ### Conception:
 **Architecture Réseau:**  
