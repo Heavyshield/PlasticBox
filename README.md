@@ -143,12 +143,12 @@ Notre sujet de stage stipulait la création d'un générateur de données. Ce g�
 C'est ainsi que nous avons séparé l'architecture de notre application en plusieurs parties.  
 
 En suivant notre _User Case_:  
-[](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/UseCase_v1.0.PNG)
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/UseCase_v1.0.PNG)
 
 Un utilisateur utilise notre générateur pour créer de la donnée. On peut customiser la génération grâce à notre Interface Utilisateur (voir moke-up de l'application un peu plus bas).  
 
 Nous avons alors réalisé notre _Diagramme de Composants_ qui montre la connection entre les différents composants:  
-[](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/UseCase_v1.1.PNG) 
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/UseCase_v1.1.PNG) 
 
 Ainsi que notre _Diagramme de classe_ prévu:  
 [](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/Class_v1.0.PNG)  
