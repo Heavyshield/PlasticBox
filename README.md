@@ -57,7 +57,7 @@ Liens ODBC | 	RA | 	R	 | R	 | C
 MySql -> CouchDB | 	C	 | C | 	RA | 	C
 CouchDB -> QlickView | 	C	 | C | 	R	 | RA
 
-Pour déterminer l'ordre de priorité des tâches ainsi qu'avoir un planning et un suivi constant, nous avons mis en place un Trello (liste des tâches en ligne et suivi) mis régulièrement à jour, ainsi que le Gantt suivant:
+Pour déterminer l'ordre de priorité des tâches ainsi qu'avoir un planning et un suivi constant, nous avons mis en place un Trello (liste des tâches en ligne et suivi) mis régulièrement à jour, ainsi que le Gantt suivant:  
 **Gantt:**  
 
 
@@ -101,7 +101,8 @@ Plusieurs technologies permettent de créer un routeur virtuel malheureusement a
 Dans l’onglet bleu du schéma réseaux, on remarque deux routeurs physiques.
 La technologie  HSRP/VRRP/ permet d’avoir de la redondance de routeur et de pouvoir répondre à cette constante
 
-que chaque gateway possède.
+que chaque gateway possède.  
+
 **Merise:**  
 Nous avons réalisés les 4 bases de données suivantes:  
 
