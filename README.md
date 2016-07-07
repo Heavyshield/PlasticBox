@@ -12,7 +12,7 @@ Avec la mondialisation et la concurrence croissante, une refonte de ses méthode
 * Réalisation d'un analyseur de données métier
 * Elaboration d'un Tableau de bord (Dashboard) avec plusieurs indicateurs (modification d'architecture)
 * Reprendre les 4 serveurs avec leurs 4 bases de données
->image calendrier ?  
+
 
 ###Organisation:  
 **Repartition des tâches:** 
@@ -21,7 +21,7 @@ Ce projet d'études a été réalisé par un groupe de 4 élèves de l'EXIA CESI
 **Matrice RACI:**  
 Pour déterminer l'ordre de priorité des tâches ainsi qu'avoir un planning et un suivi constant, nous avons mis en place un Trello (liste des tâches en ligne et suivi) mis régulièrement à jour, ainsi que le Gantt suivant:
 **Gantt:**  
->image reflexion  
+
 
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/reflexion.png)**Conception:**  
 **Architecture Réseau:**  
@@ -39,7 +39,8 @@ Pour faire varier les données simulées par le générateur, nous allons modifi
 
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/outils.png)**Choix des outils:**  
 
-Ce projet a été réalisé à l'aide de plusieurs VM 
+Ce projet a été réalisé à l'aide de plusieurs VM de Windows 7 Pro avec l'aide de virtual box: [(https://www.virtualbox.org/)]
+Les bases de données ont été créées avec MySQLServeur: [(https://dev.mysql.com/downloads/mysql/)] pour un lien plus facile avec le C# et Visual Studio.
 
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/terminal.png)**Code:**  
 
