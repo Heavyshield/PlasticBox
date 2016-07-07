@@ -15,7 +15,8 @@ Ce sujet fait clairemennt appel à la recherche opérationnelle, dont l'analyse 
 * Réalisation d'un analyseur de données métier
 * Elaboration d'un Tableau de bord (Dashboard) avec plusieurs indicateurs (modification d'architecture)
 * Reprendre les 4 serveurs avec leurs 4 bases de données
-* Création d'un entrepot de données et d'un ETL liant dashboard et la couchDB
+* Création d'un entrepot de données
+* Fabrication d'un ETL liant dashboard et couchDB
 
 ##Organisation:   
 
@@ -23,6 +24,39 @@ Ce sujet fait clairemennt appel à la recherche opérationnelle, dont l'analyse 
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/utilisateur.png)
 Ce projet d'études a été réalisé par un groupe de 4 élèves de l'EXIA CESI TOULOUSE. Les compétences et les envies de chacun ont permis la répartition des tâches et des responsabilités suivantes:  
 **Matrice RACI:**  
+  
+  
+Nom de la tâche | EA | CF | TL | DVA  
+--- | --- | --- | --- | ---  
+Générateur de données | RA | R | I | I
+Générateur de dashboard	 | I | 	I | 	R | 	RA
+UML | 	RA | 	C | 	I | 	I
+MySQL Préparation | 	I | 	I	 | I	 | RA
+MySQL Fabrication | 	C | 	I	 | I | 	RA
+MySQL Administration | 	I	 | I | 	I | 	RA
+MySQL Exportation | 	C	 | I | 	I	 | RA
+CouchDB SGBD | 	I	 | I | 	R | 	RA
+Merise | 	C | 	C | R	 | RA
+Epuration des données | 	I | 	I | 	I | 	R
+Trello | 	I | 	I | 	RA | 	I
+Gantt | 	C | 	RA | 	C | 	C
+Github | 	A | 	I	 | R | 	I
+Coggle	 | C | 	RA | 	R | 	C
+Répartition des tâches | 	R | 	R	 | RA	 | R
+Drive | 	I	 | I | 	RA | 	I
+Matrice RACI | 	C	 | RA | 	C | 	C
+VM | 	I	 | I | 	RA | 	I
+Schéma infrastructure	 | I | 	I | 	R | 	RA
+Définitions des indicateurs	 | R | 	R	 | RA | 	R
+Mise en place des étoiles | 	I | 	I | 	RA | 	I
+Création des doc (JSON) depuis CouchDB	 | R	 | C | 	RA | 	I
+Définitions des dashboard	 | C	 | C	 | RA | 	R
+Rapport	 | C | 	RA | 	C	 | C
+Power Point | 	C | 	RA | 	C | 	C
+Liens ODBC | 	RA | 	R	 | R	 | C
+MySql -> CouchDB | 	C	 | C | 	RA | 	C
+CouchDB -> QlickView | 	C	 | C | 	R	 | RA
+
 Pour déterminer l'ordre de priorité des tâches ainsi qu'avoir un planning et un suivi constant, nous avons mis en place un Trello (liste des tâches en ligne et suivi) mis régulièrement à jour, ainsi que le Gantt suivant:
 **Gantt:**  
 
