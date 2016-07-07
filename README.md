@@ -194,7 +194,7 @@ Ce projet a été réalisé en C# avec l'utilisation de Visual Studio 2015.
 Les différents serveurs ont été simulé grâce à des VM de Windows 7 Pro avec l'aide de [virtual box](https://www.virtualbox.org/)  
 Les bases de données ont été créées avec [MySQLServeur](https://dev.mysql.com/downloads/mysql/)  
 Notre base de donnée a été stocké avec [CouchDB](http://couchdb.apache.org/)  
-Notre ETL avec [Talente](https://fr.talend.com/products/big-data)  
+Notre ETL avec [Talend](https://fr.talend.com/products/big-data)  
 Le Dashboard (ou tableau de bord) a été réalisé à l'aide de [QlickView](http://www.qlik.com/products/qlikview)  
 Pour générer une partie de table de jeu de données nous avons utilisé ["Generatedata"](http://www.generatedata.com/#generator)  
 
