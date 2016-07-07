@@ -1,8 +1,6 @@
 ##**_BI Project Exia CESI_**
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/exia.png)  
 #Plastic Box
-
-  
->image du pointeur    
 
 ###Contexte du projet:
   
@@ -25,7 +23,7 @@ Pour déterminer l'ordre de priorité des tâches ainsi qu'avoir un planning et 
 **Gantt:**  
 >image reflexion  
 
-###Conception:
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/reflexion.png)**Conception:**  
 **Architecture Réseau:**  
 L'entreprise avait déja mis en place un système de base de données et de réseaux:  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/archi.PNG)
@@ -39,9 +37,9 @@ Pour faire varier les données simulées par le générateur, nous allons modifi
 * La taille des lots commandés (choix entre 10, 15 et 20 dans une liste déroulante)
 * La date de début de la simulation (choix avec le calendrier. La simulation commande 1 mois avant la date choisi et se fini 2 mois plus tard).  
 
-![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/tool.png)**Choix des outils:**  
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/outils.png)**Choix des outils:**  
 
 Ce projet a été réalisé à l'aide de plusieurs VM 
 
-![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/terminal.jpg)**Code:**  
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/terminal.png)**Code:**  
 
