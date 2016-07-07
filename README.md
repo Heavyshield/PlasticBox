@@ -63,8 +63,20 @@ Pour déterminer l'ordre de priorité des tâches ainsi qu'avoir un planning et 
 
 ### Conception:
 **Architecture Réseau:**  
-L'entreprise avait déja mis en place un système de base de données et de réseaux:  
-![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/archi.PNG)
+L'entreprise est composé de 4 services: Administration, Exportation, Importation, Production, chacun aillant son propre serveur. La composition de chaqe service nous étant inconnus, nous avons supposé que la perspective d'évolution maximum par service serait d'environ 200 postes, chaque servie etant indépendant et invisibles des autres.  
+![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/archi.PNG)  
+Nous avons donc dû reprendre cette architecture réseaux, et donc calculé les plages pour nos 4 réseaux de postes mais aussi convenu d'une convention de nommage.  
+Tous les appareils sur le réseau hormis les postes clients répondent à la norme suivante:  
+<Type_Equipement>_<Service>_<Numéro_appareil>  
+  
+_les VLAN(s)_  
+
+Service|Nom VLAN  | Numéro VLAN  | Plage IP | Masque
+--- | --- | --- | --- | ---
+Production | vlan_production | 10 | 192.168.10.0 | 255.255.255.0
+Administration | vlan_administration | 20 | 192.168.20.0 | 255.255.255.0
+Conditionnement | vlan_conditionnement | 30 | 192.168.30.0 | 255.255.255.0
+Exportation | vlan_exportation | 40 | 192.168.40.0 | 255.255.255.0  
 **Merise:**  
 Nous avons réalisés les 4 bases de données suivantes:  
 
