@@ -190,12 +190,13 @@ Dans une base de données CouchDB le format sera le Document en JSON afin de gar
 
 **Choix des outils:**  
 
-Ce projet a été réalisé à l'aide de plusieurs VM de Windows 7 Pro avec l'aide de virtual box: [(https://www.virtualbox.org/)]
-Les bases de données ont été créées avec MySQLServeur: [(https://dev.mysql.com/downloads/mysql/)]
-Le langage de développement est le C#
-CouchDB
-Talente pour l'ETL
-QlickView pour le dahsboard
+Ce projet a été réalisé en C# avec l'utilisation de Visual Studio 2015.  
+Les différents serveurs ont été simulé grâce à des VM de Windows 7 Pro avec l'aide de [virtual box](https://www.virtualbox.org/)  
+Les bases de données ont été créées avec [MySQLServeur](https://dev.mysql.com/downloads/mysql/)  
+Notre base de donnée a été stocké avec [CouchDB](http://couchdb.apache.org/)  
+Notre ETL avec [Talente](https://fr.talend.com/products/big-data)  
+Le Dashboard (ou tableau de bord) a été réalisé à l'aide de [QlickView](http://www.qlik.com/products/qlikview)  
+Pour générer une partie de table de jeu de données nous avons utilisé ["Generatedata"](http://www.generatedata.com/#generator)  
 
 ###Code:      
 Le code de notre application est récupérable [Ici](https://github.com/Heavyshield/PlasticBox)
