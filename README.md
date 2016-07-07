@@ -41,12 +41,48 @@ Pour faire varier les données simulées par le générateur, nous allons modifi
 * La variance d'un mois à l'autre entre - 15 et 15 % (choisi grâce au slider)
 * La quantité initiale de commandes (entrée par l'utilisateur)
 * La taille des lots commandés (choix entre 10, 15 et 20 dans une liste déroulante)
-* La date de début de la simulation (choix avec le calendrier. La simulation commande 1 mois avant la date choisi et se fini 2 mois plus tard).  
+* La date de début de la simulation (choix avec le calendrier. La simulation commande 1 mois avant la date choisi et se fini 2 mois plus tard).    
+
+**Les indicateurs:**  
+
+Sachant que les indicateurs sont des outils d’aide à la prise de décision et de pilotage il est nécessaire de réduire leurs nombres et de sélectionner les plus pertinents. Nous partirons sur 10 indicateurs par Dashboard.
+Dans une base de données CouchDB le format sera le Document en JSON afin de garder de la flexibilité sur la donnée.  
+
+5 tableaux de bords donneront une vision de l’activité de l’entreprise. Qualité contiendra des indicateurs sur la satisfaction des clients en fonction par exemple de délai, de la qualité des produits, de leurs pays etc. … Production sera centré sur les matériaux, les conditionnements les produits et les pièces. Echéance sur les dates d’expédition, de commandes les temps de production. Vente sur les volumes de ventes au cours du temps, la rentabilité des produits. Maintenance sur les anomalies, temps de maintenant en fonction des produits ou du temps.  
+
+1. Qualité (satisfaction/clients)  
+⋅⋅* Évolution de la satisfaction  
+*Satisfaction moyenne  
+*Taux d’annulation  
+*Rapport satisfaction / produit  
+*Rapport satisfaction / pays  
+*Rapport satisfaction / pièces  
+*Rapport satisfaction / Ligne d’assemblage  
+*Rapport satisfaction / taux de pannes  
+*Rapport satisfaction / Date  
+*Rapport prix / satisfaction  
+
+2. Production
+3. Echéance
+4. Vente
+5. Maintenance
+
 
 **Choix des outils:**  
 
 Ce projet a été réalisé à l'aide de plusieurs VM de Windows 7 Pro avec l'aide de virtual box: [(https://www.virtualbox.org/)]
-Les bases de données ont été créées avec MySQLServeur: [(https://dev.mysql.com/downloads/mysql/)] pour un lien plus facile avec le C# et Visual Studio.
+Les bases de données ont été créées avec MySQLServeur: [(https://dev.mysql.com/downloads/mysql/)]
+Le langage de développement est le C#
+CouchDB
+Talente pour l'ETL
+QlickView pour le dahsboard
 
 ###Code:      
+Le code de notre application est récupérable [Ici](https://github.com/Heavyshield/PlasticBox)
 
+###Bilan de groupe:  
+
+Le scope du projet a été affiné en cours de projet 
+Temps assez rapide
+Choix libre des techno et outils utilisé donc c'etait sympa quand mm
+projet avec plein de domaines d'informatique demande + gestion + analyse
