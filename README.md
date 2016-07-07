@@ -4,10 +4,10 @@
 
 ###Contexte du projet:
   
-La société PlasticBox™ aussi appelée PBX, créée des boites en plastiques depuis des décennies.
+La société PlasticBox™ aussi appelée PBX, crée des boites en plastiques depuis des décennies.
 Avec la mondialisation et la concurrence croissante, une refonte de ses méthodes de travail est nécessaire aujourd’hui : il faut améliorer son système de production, de conditionnement et d’expédition. Avant de faire cela de façon effective, elle voudrait essayer et tester une nouvelle architecture pour son volume de données très important .
 
-Ce sujet fait clairemennt appel à la recherche opérationnelle, dont l'analyse peut être représentée par la mind map suivante:  
+Ce sujet fait clairemennt appel à la recherche opérationnelle, dont l'analyse peut être représentée par la _mind map_ suivante:  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/mind%20map.png)  
 
 ####Reccueil des besoins:  
@@ -64,9 +64,9 @@ Cependant, notre projet s'est déroulé de la manière suivante: [télécharger 
 
 ### Conception:
 **Architecture Réseau:**  
-L'entreprise est composé de 4 services: Administration, Exportation, Importation, Production, chacun aillant son propre serveur. La composition de chaqe service nous étant inconnus, nous avons supposé que la perspective d'évolution maximum par service serait d'environ 200 postes, chaque servie etant indépendant et invisibles des autres.  
+L'entreprise est composé de 4 services: Administration, Exportation, Importation, Production, chacun aillant son propre serveur. La composition de chaqe service nous étant inconnue, nous avons supposé que la perspective d'évolution maximum par service serait d'environ 200 postes, chaque service étant indépendant et invisible des autres.  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/archi.PNG)  
-Nous avons donc dû reprendre cette architecture réseaux, et donc calculé les plages pour nos 4 réseaux de postes mais aussi convenu d'une convention de nommage.  
+Nous avons donc dû reprendre cette architecture réseau, et donc calculé les plages pour nos 4 réseaux de postes mais aussi convenu d'une convention de nommage.  
 Tous les appareils sur le réseau hormis les postes clients répondent à la norme suivante:  
 <Type_Equipement>_<Service>_<Numéro_appareil>  
   
@@ -79,7 +79,7 @@ Administration | vlan_administration | 20 | 192.168.20.0 | 255.255.255.0
 Conditionnement | vlan_conditionnement | 30 | 192.168.30.0 | 255.255.255.0
 Exportation | vlan_exportation | 40 | 192.168.L40.0 | 255.255.255.0  
 
-les 11 premières adresses de chaque plage réseau étant réservés par le service informatique, nous obtenons 244 adresses libres par VLAN.  
+les 11 premières adresses de chaque plage réseau étant réservées par le service informatique, nous obtenons 244 adresses libres par VLAN.  
 
 _Les Serveurs:_  
 Chaque service disposant d'un serveur de données, nous avons respecté notre convention de nommage mais aussi la règle suivante: tout serveur stockant de la donnée propre aux activités de l'entreprise doit être compris entre une adresse IP "192.168.XX.5" et "192.168.XX.9".  
@@ -94,32 +94,32 @@ Conditionnement | BDD_Conditionnement_1 | 192.168.10.5
 Exportation | BDD_Exportation_1 | 192.168.10.5  
 
 _Routage Inter-Vlan_  
-Ne disposant que d’un service DHCP à l’intérieur de l’entreprise, il a fallu crée un routage inter-vlan.Nous sommes partis sur des routeurs disposant au minimum de 4 ports (10 dans notre POC ci dessous).Cette ensemble de routeur a permis de mettre en place un routeur logique grâce à la technologie de VRRP  
+Ne disposant que d’un service DHCP à l’intérieur de l’entreprise, il a fallu créer un routage inter-vlan. Nous sommes partis sur des routeurs disposant au minimum de 4 ports (10 dans notre POC ci-essous). Cet ensemble de routeur a permis de mettre en place un routeur logique grâce à la technologie de VRRP  
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/PT.png)    
 
 _le routeur Virtuel_  
-Plusieurs technologies permettent de créer un routeur virtuel malheureusement aucune n’est disponible sur cette version de packet tracer (la version 6 ayant un bug sur le sujet).  
-Dans l’onglet bleu du schéma réseaux, on remarque deux routeurs physiques.
+Plusieurs technologies permettent de créer un routeur virtuel mais malheureusement aucune n’est disponible sur cette version de _packet tracer_ (la version 6 aillant un bug sur le sujet).  
+Dans l’onglet bleu du schéma réseau, on remarque deux routeurs physiques.
 La technologie  HSRP/VRRP/ permet d’avoir de la redondance de routeur et de pouvoir répondre à cette constante que chaque gateway possède.    
   
     
     
 _Nota :_  
-* _HSRP est la Hot Standby Router Protocol, elle est la technologie propre à CISCO_
-* _VRRP est la technologie HSRP normalisé, elle se traduit par  Virtual Router Redundancy Protocol_  
+* _HSRP est la "Hot Standby Router Protocol": elle est la technologie propre à CISCO_
+* _VRRP est la technologie HSRP normalisé: elle se traduit par "Virtual Router Redundancy Protocol"_  
 
 Si on utilise le VRRP :  
 1. une ip virtuelle (celle du gateway) est créée. Les routeurs physiques disposent de leurs propres IP  
 2. On donne une priorité aux routeurs ainsi que divers paramètres (cas ou un port tombe)  
 3. Le routeur possédant la plus haute priorité est élu "Maitre"  
-4. L’autre est en statut « standby »  
-5. Le protocole fait le lien entre l’IP du routeur virtuelle et celui Maitre  
-6. Si les priorités changent (par exemple, lorsqu’un lien tombe, un service réduit la priorité du routeur), une élection a lieu à nouveau afin de désigner le routeur Maitre.    
+4. L’autre est en statut "standby" 
+5. Le protocole fait le lien entre l’IP du routeur virtuel et celui Maitre  
+6. Si les priorités changent (par exemple: un service réduit la priorité du routeur lorsqu’un lien tombe), une "élection" a lieu à nouveau afin de désigner le routeur Maitre.    
 
-Ainsi quand on ping une adresse derrière le routeur virtuelle, on ne sait pas quel routeur physique a répondu.    
+Ainsi quand on ping une adresse derrière le routeur virtuel, on ne sait pas quel routeur physique a répondu.    
 
 **Merise:**  
-Nous avons réalisés les 4 bases de données suivantes:  
+Nous avons réalisé les 4 bases de données suivantes:  
 
 **_Administration:_**    
 ![](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/MLD_Administration.JPG)  
@@ -143,7 +143,7 @@ Notre sujet de stage stipulait la création d'un générateur de données. Ce g�
 C'est ainsi que nous avons séparé l'architecture de notre application en plusieurs parties.  
 
 En suivant notre _User Case_:  
-
+[](https://github.com/Heavyshield/PlasticBox/blob/master/annexe/UseCase_v1.0.PNG)
 
 Un utilisateur utilise notre générateur pour créer de la donnée. On peut customiser la génération grâce à notre Interface Utilisateur (voir moke-up de l'application un peu plus bas).  
 
